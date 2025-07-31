@@ -1,0 +1,35 @@
+.abcd{
+    width: 50%;
+    height: 50vh;
+    position: relative;
+    border: 1px solid red;
+}
+.abcd>div {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+}
+
+.a{
+    background-color: black;
+    z-index: 4;
+}
+
+.b {
+    background-color: goldenrod;
+    top: 50px;
+    left: 50px;
+    z-index: 3;
+}
+.c {
+    background-color:green ;
+    top: 100px;
+    left: 100px;
+    z-index: 2;
+}
+.d {
+    background-color: blueviolet;
+    top: 150px;
+    left: 150px;
+    z-index: 1
+}

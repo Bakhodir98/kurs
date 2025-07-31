@@ -1,0 +1,4 @@
+/* Descendant Combinator */
+div p {
+    background-color: yellow;
+}
