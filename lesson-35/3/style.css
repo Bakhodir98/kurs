@@ -1,0 +1,12 @@
+p.ex1 {
+    text-emphasis: filled;;
+}
+p.ex2 {
+    text-emphasis: open;
+}
+p.ex3 {
+    text-emphasis: double-circle red;
+}
+p.ex4 {
+    text-emphasis: triangle blue;
+}
