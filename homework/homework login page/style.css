@@ -1,0 +1,104 @@
+  .login-form {
+    width: 400px;
+    height: 400px;
+    margin: 50px auto; /* auto centers horizontally */
+    background: white;
+    border-radius: 5px;
+   }
+
+
+  
+  h1 {
+      margin: 0;
+  }
+  .title {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 24px;
+      background-color: rgba(22,160,134,255);
+      height: 100px;
+      color: white;
+      border-radius: 5px 5px 0px 0px;
+  }
+  body {
+      background-color: rgba(27,188,155,255);
+      margin: 0;
+      padding: 0;
+  }
+  .bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  .bottom > div {
+    margin: 10px;
+  }
+
+.inp-1, .inp-2, .login {
+    display: flex;
+    width: 300px;
+    height: 40px;
+}
+
+
+  .inp-1 input,
+  .inp-2 input {
+    width: 100%;
+  }
+  .inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+  }
+
+.icon {
+  background-color: rgba(18,162,134,255);
+  padding: 10px;
+  color: white;
+  border-radius: 5px 0px 0px 5px;
+
+}
+button {
+  background-color: rgba(18,162,134,255);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  width: 100%;
+}
+input {
+  border-left: none;
+  border: 1px solid rgba(18,162,134,255);
+  
+}
+input:focus {
+  outline: none; /* remove default browser outline */
+  box-shadow: none; /* remove glow in some browsers */
+}
+
+.login {
+  width: 300px; /* match input width */
+}
+.login button {
+  width: 100%; /* fill container */
+  height: 40px; /* match input height */
+  border-radius: 5px;
+}
+a {
+  text-decoration: none;
+  color: rgba(18,162,134,255);
+}
+
+.inputs a {
+  align-self: flex-start; /* pushes it to the right */
+  font-size: 14px;
+  text-decoration: none;
+  color: rgba(18,162,134,255);
+}
+.inputs a:hover {
+  text-decoration: underline;
+}
